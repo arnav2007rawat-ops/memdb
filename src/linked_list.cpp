@@ -18,6 +18,7 @@ void LinkedList::insert_or_assign(const std::string& key,
         current = current->next;
     }
 
+
     Node* new_node = new Node{
         CacheEntry{
             key,
